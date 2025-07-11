@@ -30,7 +30,7 @@ M.A.R.C.O.S is an AI-powered voice assistant built with Python that responds to 
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/Ayush-Shrivastava112/jarvis-ai.git
+git clone https://github.com/Ayush-Shrivastava112/marcos-ai.git
 cd jarvis-ai
 2. Create Virtual Environment (Optional but Recommended)
 bash
@@ -63,7 +63,7 @@ openai.api_key = "your-openai-key"(not pasting my api key for security)
 bash
 Copy
 Edit
-python jarvis.py
+python marcoss.py
 Then speak any command:
 
 "What's the news today?"
@@ -87,10 +87,10 @@ Command	Action
 bash
 Copy
 Edit
-jarvis-ai/
+marcos-ai/
 │
 ├── musiclibrary.py        # Custom music commands
-├── jarvis.py              # Main voice assistant script
+├── marcos.py              # Main voice assistant script
 ├── client.py              # Optional OpenAI client
 ├── orb_ui.py              # Visual orb interface using pygame
 ├── requirements.txt
