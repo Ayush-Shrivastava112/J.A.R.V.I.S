@@ -1,0 +1,1 @@
+r= requests.get("https://newsapi.org/v2/top-headlines?country=us&ap[key=API_KEY")
