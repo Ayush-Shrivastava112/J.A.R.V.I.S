@@ -9,8 +9,7 @@ J.A.R.V.I.S is an AI-powered voice assistant built with Python that responds to 
 - 🎵 Plays music via custom YouTube library
 - 🕒 Tells time and date
 - 🌌 Glowing 3D blue orb visual UI using `pygame`
-- 🧠 (Optional) ChatGPT/OpenAI integration
-- 🧱 Modular command architecture
+
 
 ---
 
@@ -31,7 +30,7 @@ J.A.R.V.I.S is an AI-powered voice assistant built with Python that responds to 
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/your-username/jarvis-ai.git
+git clone https://github.com/Ayush-Shrivastava112/jarvis-ai.git
 cd jarvis-ai
 2. Create Virtual Environment (Optional but Recommended)
 bash
@@ -45,21 +44,21 @@ Copy
 Edit
 pip install -r requirements.txt
 4. Download Vosk Model (if using offline recognition)
-Download from: https://alphacephei.com/vosk/models
+5. Download google Model (if using online recognition)
 
 Extract and place as a folder named model in your project root.
 
 5. Add Your API Keys
 Get a free key from NewsAPI.org
 
-Optional: Add OpenAI key for AI-based response
+Optional: Add OpenAI key for AI-based response(Paid)
 
 python
 Copy
 Edit
 # In your script (e.g., client.py)
 newsapi = "your-newsapi-key"
-openai.api_key = "your-openai-key"
+openai.api_key = "your-openai-key"(not pasting my api key for security)
 ▶️ How to Use
 bash
 Copy
